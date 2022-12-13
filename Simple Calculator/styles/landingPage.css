@@ -1,0 +1,86 @@
+.simple-cal {
+    background-color: #ddd;
+    width: max-content;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-52%, -53%);
+    box-shadow: 1px 1px 28px 1px rgb(75, 74, 74);
+    border-radius: 15px;
+}
+
+.simple-cal .tabs {
+    display: flex;
+    justify-content: center;
+}
+
+.simple-cal .tabs button {
+    padding: 3px 8px;
+    font-weight: 800;
+    font-size: 15px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.simple-cal .tabs button:hover {
+    background-color: rgb(253, 14, 14);
+    color: black;
+    border: navy;
+    cursor: pointer;
+}
+
+.simple-cal #container .logo {
+    text-align: center;
+    text-decoration: underline;
+    padding: 18px;
+}
+
+.simple-cal #container {
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.simple-cal #container .alert-container {
+    position: relative;
+    background: rgb(74, 209, 202);
+    padding: .5px;
+    margin-bottom: 20px;
+}
+
+.simple-cal #container .answer-container {
+    padding: 10px 0;
+    background-color:azure;
+    border: 1px solid rgb(77, 75, 75);
+    width: 350px;
+    border-radius: 8px;
+}
+
+.simple-cal #container .input-container input {
+   padding: 9px;
+   border: 1px solid rgb(77, 75, 75);
+   border-radius: 20px;
+}
+
+.simple-cal #container .input-container #operation {
+    width: 100px;
+    border-radius: 9px;
+}
+
+.simple-cal #container .button-container {
+    display: flex;
+    justify-content: center;
+}
+.simple-cal #container .button-container button {
+    padding: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgb(175, 172, 172);
+    border: none;
+    border-radius: 8px;
+}
+.simple-cal #container .button-container button:hover {
+    cursor: pointer;
+    background-color:  rgb(119, 118, 118);
+}

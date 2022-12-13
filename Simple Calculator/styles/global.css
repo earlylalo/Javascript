@@ -1,0 +1,21 @@
+* {
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: antiquewhite;
+    height: 100vh;
+    width: 100vw;
+}
+
+html, body {
+    min-width: 450px;
+    height: auto;
+}
+
+div.container {
+    padding: 20px 40px;
+}

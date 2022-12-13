@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="styles/global.css">
+  <link rel="stylesheet" href="styles/landingPage.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Calulator</title>
+</head>
+<body>
+
+  <div class="wrapper">
+    <div class="simple-cal">
+      <div class="tabs">
+        <button type="button" id="show" onclick="show()">Show</button>
+        <button type="button" id="hide" onclick="hide()">Hide</button>
+        <button type="button" id="darkMode" onclick="darkMode()">Dark</button>
+        <button type="button" id="lightMode" onclick="lightMode()">Light</button>
+      </div>
+      
+      <div id="container">
+        <h1 class="logo">Simple Calculator</h1>
+        <div class="alert-container">
+          <h1 id="alert"></h1>
+        </div>
+        <div class="answer-container">
+          <p id="answer"><b>Answer is: </b></p>
+        </div>
+        <div class="input-container">
+          <label for="num1"><b>Number1 :</b></label>
+          <input type="text" name="num1" id="num1" placeholder="Number"><br>
+          <label for="operation"><b>( +, *, -, / ) :</b></label>
+          <input type="text" name="operation" id="operation" placeholder="Operation"><br>
+          <label for="num2"><b>Number2 :</b></label>
+          <input type="text" name="num2" id="num2" placeholder="Number">
+        </div>
+        <div class="button-container">
+          <button type="button" onclick="answer()">Answer</button>
+          <button type="button" onclick="del()">Clear</button>
+        </div>
+        <div class="alert-container">
+          <h1 id="alert"></h1>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <script src="scripts/script.js"></script>
+
+</body>
+</html>
